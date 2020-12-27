@@ -1,0 +1,40 @@
+.recommendation__card_content {
+    background: #F9F7F7;
+    max-width: 340px;
+    width: 100%;
+    padding: 24px;
+}
+.recommendation__card_content img {
+    margin-bottom: 20px;
+}
+.recommendation__card_title {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #555860;
+    margin-bottom: 4px;
+}
+.recommendation__card_text
+{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #555860;
+    margin-bottom: 16px;
+}
+.recommendation__card_button {
+    width: 100%;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #F1EFEF;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #202020;
+}

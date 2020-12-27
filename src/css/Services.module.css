@@ -1,0 +1,46 @@
+.services {
+    padding-top: 166px;
+    font-family: SF UI Display;
+}
+.services__container {
+    flex-direction: column;
+}
+.services__title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #858585;
+    margin: 0 0 88px 0;
+}
+.services__filters {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.services__filters li {
+    margin-right: 102px;
+}
+.services__filters input {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.services__filters label {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+}
+.services__filters input:checked + label {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}

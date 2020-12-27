@@ -1,0 +1,45 @@
+.recommendation {
+    padding-top: 180px;
+    font-family: SF UI Display;
+}
+.recommendation__container {
+    display: flex;
+    flex-direction: column;
+}
+.recommendation__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recommendation__title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #858585;
+    margin: 0 0 70px 0;
+}
+.recommendation__showmore {
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+}
+.recommendation__showmore_button {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 340px;
+    width: 100%;
+    height: 80px;
+    background: #68A99B;
+    border: none;
+    margin-bottom: 220px;
+}
+.recommendation__showmore_button:focus {
+    outline: none;
+}

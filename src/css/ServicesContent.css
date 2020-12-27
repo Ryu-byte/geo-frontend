@@ -1,0 +1,55 @@
+.service__content {
+    display: flex;
+}
+.service__content_left-side {
+    display: flex;
+    width: 100%;
+}
+
+.service__content_left-side > img {
+    width: 100%;
+}
+
+.service__content_right-side {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.service__content_right-side_list {
+    height: 100%;
+    background: #F9F9F9;
+    max-width: 520px;
+    width: 100%;
+    padding: 40px 0 0 67px;
+    margin: 0 0 50px 80px;
+}
+.service__content_right-side_list li {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #202020;
+    list-style-image: url("../images/servicesContentListMarker.svg");
+    padding-left: 13px;
+    margin-bottom: 40px;
+    white-space: pre-wrap;
+}
+.service__content_right-side_list_button {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 80px;
+    max-width: 520px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    background: #68A99B;
+}
+.service__content_right-side_list_button:focus {
+    outline: none;
+}
+

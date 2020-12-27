@@ -1,0 +1,31 @@
+@import "fonts/stylesheet.css";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.container {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 100px;
+}
+.container-fluid {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+}
