@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eebf988b-0b1a-4880-b472-322f5d141cbe" name="Default Changelist" comment="" />
+    <list default="true" id="eebf988b-0b1a-4880-b472-322f5d141cbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Recommendation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Recommendation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/RecommendationCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/RecommendationCard.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +73,8 @@
       <workItem from="1608879534663" duration="38466000" />
       <workItem from="1608977718719" duration="10589000" />
       <workItem from="1608998178644" duration="11383000" />
-      <workItem from="1609092497331" duration="10282000" />
+      <workItem from="1609092497331" duration="10501000" />
+      <workItem from="1609116417630" duration="157000" />
     </task>
     <servers />
   </component>
