@@ -14,6 +14,7 @@ SwiperCore.use([Navigation, Pagination]);
 export const ProjectsContent = (props) => {
     const listItems = props.text.map((item, index) => <li key={index}>{item}</li>)
     const imgList = props.img.map((item, index) => <SwiperSlide key={index}><img src={item}/></SwiperSlide> )
+    console.log(listItems)
     return (
         <div className={'project__content'}>
             <div className={'project__content_left-side'}>
